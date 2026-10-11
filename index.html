@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Image Slider | Bigya Mahat</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="#home">Image Slider<span>.</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="intro">
+                <p class="eyebrow">DISCOVER THE WORLD</p>
+                <h1>Every picture tells a story.</h1>
+                <p>Explore beautiful places through this simple, responsive image slider.</p>
+            </div>
+
+            <div class="slider" aria-label="Landscape image slider">
+                <div class="slides">
+                    <article class="slide active">
+                        <img src="images/mountain-lake.jpg" alt="Mountain Lake">
+                        <div class="slide-content">
+                            <h2>Mountain Lake</h2>
+                            <p>Still waters and towering peaks.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <img src="images/mountain-sunset.jpg" alt="Mountain Sunset">
+                        <div class="slide-content">
+                            <h2>Mountain Sunset</h2>
+                            <p>A peaceful view above the clouds.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <img src="images/city-night.jpg" alt="City Lights">
+                        <div class="slide-content">
+                            <h2>City Lights</h2>
+                            <p>A bright city reflected on the water.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <img src="images/sunlit-forest.jpg" alt="Sunlit Forest">
+                        <div class="slide-content">
+                            <h2>Sunlit Forest</h2>
+                            <p>Follow the light through the trees.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <img src="images/coastal-sunset.jpg" alt="Coastal Sunset">
+                        <div class="slide-content">
+                            <h2>Coastal Sunset</h2>
+                            <p>Golden skies over the ocean.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <img src="images/green-valley.jpg" alt="Green Valley">
+                        <div class="slide-content">
+                            <h2>Green Valley</h2>
+                            <p>A scenic road through the hills.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <img src="images/waterfall-trail.jpg" alt="Waterfall Trail">
+                        <div class="slide-content">
+                            <h2>Forest Escape</h2>
+                            <p>A fresh perspective on nature.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <img src="images/snowy-peaks.jpg" alt="Snowy Peaks">
+                        <div class="slide-content">
+                            <h2>Snowy Peaks</h2>
+                            <p>Discover the quiet of the mountains.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <img src="images/city-reflections.jpg" alt="Night Reflections">
+                        <div class="slide-content">
+                            <h2>Night Reflections</h2>
+                            <p>City colors dancing on the water.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <img src="images/forest-path.jpg" alt="Forest Path">
+                        <div class="slide-content">
+                            <h2>Forest Path</h2>
+                            <p>Sunlight guides the way forward.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <img src="images/ocean-horizon.jpg" alt="Ocean Horizon">
+                        <div class="slide-content">
+                            <h2>Ocean Horizon</h2>
+                            <p>A new view of the evening coast.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide">
+                        <img src="images/alpine-road.jpg" alt="Alpine Road">
+                        <div class="slide-content">
+                            <h2>Alpine Road</h2>
+                            <p>A scenic journey through green hills.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <button class="slider-button previous"
+                        id="previous"
+                        type="button"
+                        aria-label="Previous image">
+                    &#10094;
+                </button>
+
+                <button class="slider-button next"
+                        id="next"
+                        type="button"
+                        aria-label="Next image">
+                    &#10095;
+                </button>
+
+                <div class="slider-footer">
+                    <div class="dots" id="dots" aria-label="Choose an image"></div>
+
+                    <div class="slider-tools">
+                        <span id="counter" aria-live="polite">01 / 12</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <p class="eyebrow">ABOUT THIS PROJECT</p>
+            <h2>A simple image slider built with HTML, CSS and JavaScript.</h2>
+            <p>
+                This image slider uses HTML to structure the page, CSS to style
+                the gallery, and JavaScript to change images. It includes
+                Previous and Next buttons, navigation dots, automatic sliding,
+                and infinite looping.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by <strong>Bigya Mahat</strong></p>
+
+        <div class="footer-links">
+            <a href="mailto:bigyamahat111@gmail.com">Contact Me</a>
+            <a href="https://github.com/bigyamahat46"
+               target="_blank"
+               rel="noopener noreferrer">GitHub</a>
+        </div>
+
+        <p id="copyright-button">
+            &copy; <span id="year">2026</span> Bigya Mahat - Copyright
+        </p>
+    </footer>
+</body>
+</html>
